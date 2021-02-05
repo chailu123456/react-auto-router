@@ -1,0 +1,27 @@
+
+#root {
+  height: 100%;
+}
+.do-project {
+  display: flex;
+  height: 100%;
+  .do-project-menulist {
+    width: 150px;
+    color: #fff;
+    background: #171a27;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .do-project-content {
+    width: calc(100% - 150px);
+    .content-show {
+      margin: 20px;
+      padding: 20px;
+      height: calc(100% - 90px);
+      background: #fff;
+      border-radius: 4px;
+    }
+  }
+}

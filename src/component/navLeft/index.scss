@@ -1,0 +1,35 @@
+.nav-list {
+  margin-top: 40px;
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d54bb;
+    font-size: 38px;
+  }
+  .nav-list-show {
+    margin: 0 10px;
+    line-height: 34px;
+    a.nav-parent {
+      font-size: 12px;
+    }
+    .nav-tab {
+      a {
+        display: inline-block;
+        padding: 0 10px;
+        width: 100%;
+        font-size: 14px;
+      }
+      a.nav-select {
+        background-color: #25479e;
+        border-radius: 4px;
+        opacity: 1;
+      }
+      
+      a.nav-child:hover {
+        background-color: #25479e;
+        border-radius: 4px;
+        opacity: 1;
+      }
+    }
+  }
+}
