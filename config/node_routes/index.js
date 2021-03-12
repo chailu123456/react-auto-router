@@ -125,9 +125,9 @@ module.exports = async function(source) {
     // let res= await readFileList(path);
     let a = await fileDisplay(filePath, '')
     let v = jsontranslate(a)
-    console.log(7777);
-    console.log(v)
-    console.log(7777);
+    // console.log(7777);
+    // console.log(v)
+    // console.log(7777);
 
     callback(null, ` export default ${v}`);
   }catch(e){

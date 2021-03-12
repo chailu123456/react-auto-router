@@ -5,10 +5,11 @@ import { HashRouter as Router, Route,Redirect, Switch } from 'react-router-dom'
 import AsyncComponent from './AsyncComponent'
 import routesArr from './routers'; //
 import routesArrPage from './routePage?getRouter';
+import Test from './testpage?testing';
 import './style/index.scss';
 console.log(8888,routesArrPage);
 
-
+console.log('==='+ JSON.stringify(Test));
 // 调用 AsyncComponent
 (function initRouter(routesArrPage){
   routesArrPage.forEach((item) => {

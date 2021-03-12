@@ -333,6 +333,19 @@ module.exports = function(webpackEnv) {
             }
           ]
         },
+        {
+          test: /\.js/,
+          resourceQuery: /testing/,
+          type: 'javascript/auto',
+          use: [
+            {
+              loader: path.resolve('./config/node_routes/test'),
+              options: {
+                name: '我是传进来的'
+              }
+            }
+          ]
+        },
         // Disable require.ensure as it's not a standard language feature.
         { parser: { requireEnsure: false } },
 
